@@ -1,0 +1,102 @@
+/* Grid Styles */
+
+.grid-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.grid-two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    width: 500px;
+    margin-bottom: 20px;
+
+}
+
+.grid-two > .red {
+    background-color: red;
+}
+.grid-two > .blue {
+    background-color: blue;
+}
+
+.grid-two > .yellow {
+    background-color: yellow;
+}
+
+.grid-three {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+.grid-three > .paragraph {
+    background-color: aquamarine;
+}
+.grid-three > .image {
+    background-color: rebeccapurple;
+}
+
+.grid-three img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+
+.grid-four {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.grid-four #row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-five {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 450px;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+
+.grid-five #images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.grid-five #images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.grid-six {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgrey;
+    margin-bottom: 20px;
+}
+
+.grid-six > .icon {
+    display: flex;
+    align-items: center;
+}
+
+.grid-six p {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+
